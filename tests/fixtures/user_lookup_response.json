@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "id": "4398626122",
+      "name": "OpenAI",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+      "username": "OpenAI",
+      "verified": true
+    },
+    {
+      "id": "1353836358901501952",
+      "name": "Anthropic",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg",
+      "username": "AnthropicAI",
+      "verified": true
+    },
+    {
+      "id": "4783690002",
+      "name": "Google DeepMind",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P_normal.jpg",
+      "username": "GoogleDeepMind",
+      "verified": true
+    },
+    {
+      "id": "1034844617261248512",
+      "name": "AI at Meta",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1454145678075117568/2qXqM_Cu_normal.png",
+      "username": "AIatMeta",
+      "verified": true
+    },
+    {
+      "id": "1667249535519805451",
+      "name": "Mistral AI",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1996905418065375232/mzwynOLB_normal.jpg",
+      "username": "MistralAI",
+      "verified": false
+    },
+    {
+      "id": "33838201",
+      "name": "Google AI",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2057682346074058752/zTpu89C1_normal.jpg",
+      "username": "GoogleAI",
+      "verified": true
+    },
+    {
+      "id": "778764142412984320",
+      "name": "Hugging Face",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1991559933473497089/mbrRS49P_normal.jpg",
+      "username": "huggingface",
+      "verified": false
+    },
+    {
+      "id": "33836629",
+      "name": "Andrej Karpathy",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_normal.jpg",
+      "username": "karpathy",
+      "verified": false
+    },
+    {
+      "id": "33521530",
+      "name": "swyx",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2073162797354217472/hNny55eF_normal.jpg",
+      "username": "swyx",
+      "verified": false
+    },
+    {
+      "id": "12497",
+      "name": "Simon Willison",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/378800000261649705/be9cc55e64014e6d7663c50d7cb9fc75_normal.jpeg",
+      "username": "simonw",
+      "verified": false
+    }
+  ],
+  "errors": [
+    {
+      "detail": "Could not find user with usernames: [LangChainAI].",
+      "parameter": "usernames",
+      "resource_id": "LangChainAI",
+      "resource_type": "user",
+      "title": "Not Found Error",
+      "type": "https://api.x.com/2/problems/resource-not-found",
+      "value": "LangChainAI"
+    },
+    {
+      "detail": "User has been suspended: [LlamaIndex].",
+      "parameter": "usernames",
+      "resource_id": "LlamaIndex",
+      "resource_type": "user",
+      "title": "Forbidden",
+      "type": "https://api.x.com/2/problems/resource-not-found",
+      "value": "LlamaIndex"
+    }
+  ]
+}

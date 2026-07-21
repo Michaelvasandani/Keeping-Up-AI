@@ -1,0 +1,795 @@
+{
+  "data": [
+    {
+      "author_id": "4398626122",
+      "created_at": "2026-07-17T22:21:17.000Z",
+      "edit_history_tweet_ids": [
+        "2078243670265041038"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/oM1XKKlHco",
+            "end": 300,
+            "expanded_url": "https://x.com/OpenAI/status/2078243670265041038/photo/1",
+            "media_key": "3_2078243379511693312",
+            "start": 277,
+            "url": "https://t.co/oM1XKKlHco"
+          },
+          {
+            "display_url": "pic.x.com/oM1XKKlHco",
+            "end": 300,
+            "expanded_url": "https://x.com/OpenAI/status/2078243670265041038/photo/1",
+            "media_key": "3_2078243379566280704",
+            "start": 277,
+            "url": "https://t.co/oM1XKKlHco"
+          },
+          {
+            "display_url": "pic.x.com/oM1XKKlHco",
+            "end": 300,
+            "expanded_url": "https://x.com/OpenAI/status/2078243670265041038/photo/1",
+            "media_key": "3_2078243379574669312",
+            "start": 277,
+            "url": "https://t.co/oM1XKKlHco"
+          },
+          {
+            "display_url": "pic.x.com/oM1XKKlHco",
+            "end": 300,
+            "expanded_url": "https://x.com/OpenAI/status/2078243670265041038/photo/1",
+            "media_key": "3_2078243379536932864",
+            "start": 277,
+            "url": "https://t.co/oM1XKKlHco"
+          }
+        ]
+      },
+      "id": "2078243670265041038",
+      "public_metrics": {
+        "bookmark_count": 291,
+        "impression_count": 130496,
+        "like_count": 492,
+        "quote_count": 16,
+        "reply_count": 45,
+        "retweet_count": 58
+      },
+      "referenced_tweets": [
+        {
+          "id": "2078243667081617826",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Here's how to add the Codex Security plugin in Codex and get started:\n\nAdd the plugin in Codex. After installation is complete, the button changes to \u201cTry in chat.\u201d\n\nClick \u201cTry in chat\u201d to start a new Codex chat with a Codex Security scan prompt ready to run.\n\nChoose a folder https://t.co/oM1XKKlHco"
+    },
+    {
+      "author_id": "4398626122",
+      "created_at": "2026-07-17T22:21:16.000Z",
+      "edit_history_tweet_ids": [
+        "2078243667081617826"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/e4KqKXKAnL",
+            "end": 296,
+            "expanded_url": "https://x.com/OpenAI/status/2078243667081617826/photo/1",
+            "media_key": "3_2078243209613111296",
+            "start": 273,
+            "url": "https://t.co/e4KqKXKAnL"
+          }
+        ]
+      },
+      "id": "2078243667081617826",
+      "public_metrics": {
+        "bookmark_count": 593,
+        "impression_count": 697428,
+        "like_count": 3912,
+        "quote_count": 82,
+        "reply_count": 242,
+        "retweet_count": 371
+      },
+      "text": "GPT-5.6 Sol sets a new state of the art in cybersecurity on \u201cThe Last Ones\u201d cyber range.\n\nWe\u2019re already seeing that capability translate into defensive outcomes: helping teams find, validate, and fix vulnerabilities in real-world code.\n\nPut it to work with Codex Security: https://t.co/e4KqKXKAnL"
+    },
+    {
+      "author_id": "4398626122",
+      "created_at": "2026-07-17T21:00:01.000Z",
+      "edit_history_tweet_ids": [
+        "2078223217773474134"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "description": "Share what you love about GPT-5.6 or what you built.",
+            "display_url": "switch-to-codex.openai.chatgpt.site",
+            "end": 63,
+            "expanded_url": "https://switch-to-codex.openai.chatgpt.site/",
+            "images": [
+              {
+                "height": 948,
+                "url": "https://pbs.twimg.com/news_img/2077248869948440577/MqAOuo3o?format=jpg&name=orig",
+                "width": 1659
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2077248869948440577/MqAOuo3o?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 40,
+            "status": 200,
+            "title": "Share what you love. Get $100 in ChatGPT credits.",
+            "unwound_url": "https://switch-to-codex.openai.chatgpt.site/",
+            "url": "https://t.co/Mu6PBPkrop"
+          },
+          {
+            "display_url": "pic.x.com/1jJ7ZNCY26",
+            "end": 87,
+            "expanded_url": "https://x.com/OpenAI/status/2078223217773474134/photo/1",
+            "media_key": "3_2078222436689125376",
+            "start": 64,
+            "url": "https://t.co/1jJ7ZNCY26"
+          },
+          {
+            "display_url": "x.com/thsottiaux/sta\u2026",
+            "end": 111,
+            "expanded_url": "https://twitter.com/thsottiaux/status/2077248807533003257",
+            "start": 88,
+            "url": "https://t.co/IAfQrXUPqA"
+          }
+        ]
+      },
+      "id": "2078223217773474134",
+      "public_metrics": {
+        "bookmark_count": 341,
+        "impression_count": 619479,
+        "like_count": 2252,
+        "quote_count": 63,
+        "reply_count": 324,
+        "retweet_count": 170
+      },
+      "referenced_tweets": [
+        {
+          "id": "2077248807533003257",
+          "type": "quoted"
+        }
+      ],
+      "text": "10,000 reasons people love GPT-5.6 Sol \nhttps://t.co/Mu6PBPkrop https://t.co/1jJ7ZNCY26 https://t.co/IAfQrXUPqA"
+    },
+    {
+      "author_id": "4398626122",
+      "created_at": "2026-07-16T17:30:01.000Z",
+      "edit_history_tweet_ids": [
+        "2077807981715128702"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "description": "Podcast \u00b7 OpenAI \u00b7 Hosted by Andrew Mayne,\u00a0The OpenAI Podcast\u00a0features conversations with the people working at and building with OpenAI. Topics range from what goes into developing frontier AI models and new features, to what users are doing with the technology. It\u2019s a practical look at how AI is made and where it\u2019s going, told by the people closest to the work. Hosted on Acast. See acast.com/privacy for more information.",
+            "display_url": "open.spotify.com/show/0zojMEDiz\u2026",
+            "end": 65,
+            "expanded_url": "https://open.spotify.com/show/0zojMEDizKMh3aTxnGLENP",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://pbs.twimg.com/news_img/2077808026367778816/fLJPKL_W?format=jpg&name=orig",
+                "width": 640
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2077808026367778816/fLJPKL_W?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 42,
+            "status": 200,
+            "title": "OpenAI Podcast",
+            "unwound_url": "https://open.spotify.com/show/0zojMEDizKMh3aTxnGLENP",
+            "url": "https://t.co/hLcRdGrfUX"
+          },
+          {
+            "display_url": "podcasts.apple.com/us/podcast/wha\u2026",
+            "end": 95,
+            "expanded_url": "https://podcasts.apple.com/us/podcast/what-racing-reveals-about-working-with-ai-episode-22/id1820330260?i=1000777091917",
+            "start": 72,
+            "status": 500,
+            "unwound_url": "https://podcasts.apple.com/us/podcast/what-racing-reveals-about-working-with-ai-episode-22/id1820330260?i=1000777091917",
+            "url": "https://t.co/UsNCsk4dvq"
+          },
+          {
+            "description": "Racing is a sport of tiny margins and mountains of data. OpenAI res...",
+            "display_url": "youtube.com/watch?v=KNPjRp\u2026",
+            "end": 127,
+            "expanded_url": "https://www.youtube.com/watch?v=KNPjRpNtQ7s",
+            "start": 104,
+            "status": 200,
+            "title": "What racing reveals about working with AI \u2014 the OpenAI Podcast Ep. 22",
+            "unwound_url": "https://www.youtube.com/watch?v=KNPjRpNtQ7s",
+            "url": "https://t.co/Ji9gUYXqYp"
+          }
+        ]
+      },
+      "id": "2077807981715128702",
+      "public_metrics": {
+        "bookmark_count": 9,
+        "impression_count": 73626,
+        "like_count": 75,
+        "quote_count": 2,
+        "reply_count": 11,
+        "retweet_count": 7
+      },
+      "referenced_tweets": [
+        {
+          "id": "2077807977193714080",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Listen to the OpenAI Podcast on\u2014\n\nSpotify\nhttps://t.co/hLcRdGrfUX\nApple\nhttps://t.co/UsNCsk4dvq\nYouTube\nhttps://t.co/Ji9gUYXqYp"
+    },
+    {
+      "author_id": "4398626122",
+      "created_at": "2026-07-16T17:30:00.000Z",
+      "edit_history_tweet_ids": [
+        "2077807977193714080"
+      ],
+      "entities": {
+        "mentions": [
+          {
+            "end": 104,
+            "id": "1919502590187839488",
+            "start": 89,
+            "username": "RaceTekSystems"
+          },
+          {
+            "end": 131,
+            "id": "52303569",
+            "start": 116,
+            "username": "GarageGuyChase"
+          },
+          {
+            "end": 157,
+            "id": "5548212",
+            "start": 145,
+            "username": "AndrewMayne"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/HC9FhV0I40",
+            "end": 303,
+            "expanded_url": "https://x.com/OpenAI/status/2077807977193714080/video/1",
+            "media_key": "13_2077792903074893829",
+            "start": 280,
+            "url": "https://t.co/HC9FhV0I40"
+          }
+        ]
+      },
+      "id": "2077807977193714080",
+      "public_metrics": {
+        "bookmark_count": 136,
+        "impression_count": 265805,
+        "like_count": 1017,
+        "quote_count": 18,
+        "reply_count": 152,
+        "retweet_count": 71
+      },
+      "text": "In racing, tiny margins matter. AI can help teams find them.\n\nOpenAI\u2019s Joyce Ruffell and @RaceTekSystems co-founder @GarageGuyChase discuss with @AndrewMayne how racing teams use AI to turn track data into faster decisions\u2014from our research collaboration with Chip Ganassi Racing https://t.co/HC9FhV0I40"
+    },
+    {
+      "author_id": "4398626122",
+      "created_at": "2026-07-15T21:12:34.000Z",
+      "edit_history_tweet_ids": [
+        "2077501603050033634"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/hY3wkHVG7z",
+            "end": 246,
+            "expanded_url": "https://x.com/OpenAI/status/2077501603050033634/video/1",
+            "media_key": "13_2077499668737781760",
+            "start": 223,
+            "url": "https://t.co/hY3wkHVG7z"
+          }
+        ]
+      },
+      "id": "2077501603050033634",
+      "public_metrics": {
+        "bookmark_count": 376,
+        "impression_count": 336457,
+        "like_count": 2011,
+        "quote_count": 28,
+        "reply_count": 196,
+        "retweet_count": 129
+      },
+      "text": "A closer look at improved intelligence in GPT-Live: the model can keep a conversation going while helping with multiple tasks at once, like checking flights, pulling up local weather, and shaping an itinerary in real time. https://t.co/hY3wkHVG7z"
+    },
+    {
+      "author_id": "4398626122",
+      "created_at": "2026-07-15T17:34:30.000Z",
+      "edit_history_tweet_ids": [
+        "2077446723992228167"
+      ],
+      "id": "2077446723992228167",
+      "public_metrics": {
+        "bookmark_count": 30,
+        "impression_count": 97998,
+        "like_count": 388,
+        "quote_count": 7,
+        "reply_count": 20,
+        "retweet_count": 11
+      },
+      "referenced_tweets": [
+        {
+          "id": "2077446722683650525",
+          "type": "replied_to"
+        }
+      ],
+      "text": "AI agents are already being used to improve the capabilities of our next-generation models.\n\nWe believe with GPT-Red that we have started to unlock a similar flywheel for safety, where today's models can be used to make tomorrow's models more robust, aligned, and trustworthy."
+    },
+    {
+      "author_id": "4398626122",
+      "created_at": "2026-07-15T17:34:30.000Z",
+      "edit_history_tweet_ids": [
+        "2077446722683650525"
+      ],
+      "id": "2077446722683650525",
+      "public_metrics": {
+        "bookmark_count": 28,
+        "impression_count": 110512,
+        "like_count": 398,
+        "quote_count": 5,
+        "reply_count": 15,
+        "retweet_count": 15
+      },
+      "referenced_tweets": [
+        {
+          "id": "2077446721161093124",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Training against GPT\u2011Red makes GPT\u20115.6 substantially more resilient. To measure this, we replayed some of GPT\u2011Red\u2019s strongest attacks\u2014none of which our models had seen during training. GPT\u20115.6 Sol proved to be our most robust model against prompt injections to date, with 6\u00d7 fewer"
+    },
+    {
+      "author_id": "4398626122",
+      "created_at": "2026-07-15T17:34:30.000Z",
+      "edit_history_tweet_ids": [
+        "2077446721161093124"
+      ],
+      "id": "2077446721161093124",
+      "public_metrics": {
+        "bookmark_count": 34,
+        "impression_count": 79674,
+        "like_count": 473,
+        "quote_count": 7,
+        "reply_count": 9,
+        "retweet_count": 12
+      },
+      "referenced_tweets": [
+        {
+          "id": "2077446719990796505",
+          "type": "replied_to"
+        }
+      ],
+      "text": "GPT\u2011Red learns through adversarial self-play, where its goal is to prompt inject a variety of challenging defender models.\n\nEvery successful attack that GPT-Red finds is used to improve these defenders, pushing GPT\u2011Red to continuously find broader and more complex failures."
+    },
+    {
+      "author_id": "4398626122",
+      "created_at": "2026-07-15T17:34:29.000Z",
+      "edit_history_tweet_ids": [
+        "2077446719990796505"
+      ],
+      "id": "2077446719990796505",
+      "public_metrics": {
+        "bookmark_count": 27,
+        "impression_count": 107287,
+        "like_count": 586,
+        "quote_count": 3,
+        "reply_count": 14,
+        "retweet_count": 16
+      },
+      "referenced_tweets": [
+        {
+          "id": "2077446718728425686",
+          "type": "replied_to"
+        }
+      ],
+      "text": "As model capabilities grow, safety and alignment must scale with them.\n\nRed-teaming is essential, but today\u2019s approaches are difficult to scale, creating a critical bottleneck.\n\nGPT\u2011Red is one way we\u2019re addressing it."
+    },
+    {
+      "author_id": "4398626122",
+      "created_at": "2026-07-15T17:34:29.000Z",
+      "edit_history_tweet_ids": [
+        "2077446718728425686"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "description": "Explore GPT-Red, OpenAI\u2019s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+            "display_url": "openai.com/index/unlockin\u2026",
+            "end": 214,
+            "expanded_url": "https://openai.com/index/unlocking-self-improvement-gpt-red/",
+            "images": [
+              {
+                "height": 900,
+                "url": "https://pbs.twimg.com/news_img/2077439982327726080/5guUZKb9?format=jpg&name=orig",
+                "width": 1600
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2077439982327726080/5guUZKb9?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 191,
+            "status": 200,
+            "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+            "unwound_url": "https://openai.com/index/unlocking-self-improvement-gpt-red/",
+            "url": "https://t.co/GxnmxxcpSk"
+          }
+        ]
+      },
+      "id": "2077446718728425686",
+      "public_metrics": {
+        "bookmark_count": 2326,
+        "impression_count": 1740775,
+        "like_count": 8436,
+        "quote_count": 278,
+        "reply_count": 503,
+        "retweet_count": 800
+      },
+      "text": "Introducing GPT-Red\n\nAn internal automated red teamer on a mission to find our models\u2019 prompt injection vulnerabilities at scale, helping us build stronger defenses before wider deployment.\n\nhttps://t.co/GxnmxxcpSk"
+    },
+    {
+      "author_id": "4398626122",
+      "created_at": "2026-07-15T16:29:55.000Z",
+      "edit_history_tweet_ids": [
+        "2077430470510526635"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "description": "Shop official OpenAI Supply Co. merchandise, apparel, accessories, and limited-edition collectibles inspired by AI innovation, research, and design.",
+            "display_url": "openai.com/supply/",
+            "end": 120,
+            "expanded_url": "https://openai.com/supply/",
+            "images": [
+              {
+                "height": 900,
+                "url": "https://pbs.twimg.com/news_img/2077424289150873600/WAbrWL0G?format=jpg&name=orig",
+                "width": 1600
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2077424289150873600/WAbrWL0G?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 97,
+            "status": 200,
+            "title": "Supply Co.",
+            "unwound_url": "https://openai.com/supply/",
+            "url": "https://t.co/Ls79n9OfZ0"
+          },
+          {
+            "display_url": "x.com/dwhitedesign/s\u2026",
+            "end": 144,
+            "expanded_url": "https://twitter.com/dwhitedesign/status/2077311544858149081",
+            "start": 121,
+            "url": "https://t.co/lV8WxyZ7yc"
+          }
+        ]
+      },
+      "id": "2077430470510526635",
+      "public_metrics": {
+        "bookmark_count": 582,
+        "impression_count": 1580562,
+        "like_count": 3245,
+        "quote_count": 149,
+        "reply_count": 314,
+        "retweet_count": 121
+      },
+      "referenced_tweets": [
+        {
+          "id": "2077311544858149081",
+          "type": "quoted"
+        }
+      ],
+      "text": "You don\u2019t have to wait.\n\nMerch inspired by research &amp; deployment.\n\nAvailable until sold out.\nhttps://t.co/Ls79n9OfZ0 https://t.co/lV8WxyZ7yc"
+    }
+  ],
+  "includes": {
+    "tweets": [
+      {
+        "author_id": "4398626122",
+        "created_at": "2026-07-17T22:21:16.000Z",
+        "edit_history_tweet_ids": [
+          "2078243667081617826"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/e4KqKXKAnL",
+              "end": 296,
+              "expanded_url": "https://x.com/OpenAI/status/2078243667081617826/photo/1",
+              "media_key": "3_2078243209613111296",
+              "start": 273,
+              "url": "https://t.co/e4KqKXKAnL"
+            }
+          ]
+        },
+        "id": "2078243667081617826",
+        "public_metrics": {
+          "bookmark_count": 593,
+          "impression_count": 697428,
+          "like_count": 3912,
+          "quote_count": 82,
+          "reply_count": 242,
+          "retweet_count": 371
+        },
+        "text": "GPT-5.6 Sol sets a new state of the art in cybersecurity on \u201cThe Last Ones\u201d cyber range.\n\nWe\u2019re already seeing that capability translate into defensive outcomes: helping teams find, validate, and fix vulnerabilities in real-world code.\n\nPut it to work with Codex Security: https://t.co/e4KqKXKAnL"
+      },
+      {
+        "author_id": "1953337039510003712",
+        "created_at": "2026-07-15T04:28:03.000Z",
+        "edit_history_tweet_ids": [
+          "2077248807533003257"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "description": "Share what you love about GPT-5.6 or what you built.",
+              "display_url": "switch-to-codex.openai.chatgpt.site",
+              "end": 215,
+              "expanded_url": "https://switch-to-codex.openai.chatgpt.site/",
+              "images": [
+                {
+                  "height": 948,
+                  "url": "https://pbs.twimg.com/news_img/2077248869948440577/MqAOuo3o?format=jpg&name=orig",
+                  "width": 1659
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2077248869948440577/MqAOuo3o?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 192,
+              "status": 200,
+              "title": "Share what you love. Get $100 in ChatGPT credits.",
+              "unwound_url": "https://switch-to-codex.openai.chatgpt.site/",
+              "url": "https://t.co/8mU93eA13i"
+            },
+            {
+              "display_url": "x.com/amankumarhq/st\u2026",
+              "end": 239,
+              "expanded_url": "https://twitter.com/amankumarhq/status/2076562467602514312",
+              "start": 216,
+              "url": "https://t.co/8FfAGx68wR"
+            }
+          ]
+        },
+        "id": "2077248807533003257",
+        "public_metrics": {
+          "bookmark_count": 5549,
+          "impression_count": 5608490,
+          "like_count": 15503,
+          "quote_count": 5667,
+          "reply_count": 13459,
+          "retweet_count": 3592
+        },
+        "referenced_tweets": [
+          {
+            "id": "2076562467602514312",
+            "type": "quoted"
+          }
+        ],
+        "text": "Or\u2026 what if we gave you $100 in Codex credits if you tell us what you love about GPT-5.6 Sol or why you switched?\n\nTweet it, claim your gift, enjoy more usage. First 10k get the free tokens!\n\nhttps://t.co/8mU93eA13i https://t.co/8FfAGx68wR"
+      },
+      {
+        "author_id": "4398626122",
+        "created_at": "2026-07-16T17:30:00.000Z",
+        "edit_history_tweet_ids": [
+          "2077807977193714080"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 104,
+              "id": "1919502590187839488",
+              "start": 89,
+              "username": "RaceTekSystems"
+            },
+            {
+              "end": 131,
+              "id": "52303569",
+              "start": 116,
+              "username": "GarageGuyChase"
+            },
+            {
+              "end": 157,
+              "id": "5548212",
+              "start": 145,
+              "username": "AndrewMayne"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/HC9FhV0I40",
+              "end": 303,
+              "expanded_url": "https://x.com/OpenAI/status/2077807977193714080/video/1",
+              "media_key": "13_2077792903074893829",
+              "start": 280,
+              "url": "https://t.co/HC9FhV0I40"
+            }
+          ]
+        },
+        "id": "2077807977193714080",
+        "public_metrics": {
+          "bookmark_count": 136,
+          "impression_count": 265805,
+          "like_count": 1017,
+          "quote_count": 18,
+          "reply_count": 152,
+          "retweet_count": 71
+        },
+        "text": "In racing, tiny margins matter. AI can help teams find them.\n\nOpenAI\u2019s Joyce Ruffell and @RaceTekSystems co-founder @GarageGuyChase discuss with @AndrewMayne how racing teams use AI to turn track data into faster decisions\u2014from our research collaboration with Chip Ganassi Racing https://t.co/HC9FhV0I40"
+      },
+      {
+        "author_id": "4398626122",
+        "created_at": "2026-07-15T17:34:30.000Z",
+        "edit_history_tweet_ids": [
+          "2077446722683650525"
+        ],
+        "id": "2077446722683650525",
+        "public_metrics": {
+          "bookmark_count": 28,
+          "impression_count": 110512,
+          "like_count": 398,
+          "quote_count": 5,
+          "reply_count": 15,
+          "retweet_count": 15
+        },
+        "referenced_tweets": [
+          {
+            "id": "2077446721161093124",
+            "type": "replied_to"
+          }
+        ],
+        "text": "Training against GPT\u2011Red makes GPT\u20115.6 substantially more resilient. To measure this, we replayed some of GPT\u2011Red\u2019s strongest attacks\u2014none of which our models had seen during training. GPT\u20115.6 Sol proved to be our most robust model against prompt injections to date, with 6\u00d7 fewer"
+      },
+      {
+        "author_id": "4398626122",
+        "created_at": "2026-07-15T17:34:30.000Z",
+        "edit_history_tweet_ids": [
+          "2077446721161093124"
+        ],
+        "id": "2077446721161093124",
+        "public_metrics": {
+          "bookmark_count": 34,
+          "impression_count": 79674,
+          "like_count": 473,
+          "quote_count": 7,
+          "reply_count": 9,
+          "retweet_count": 12
+        },
+        "referenced_tweets": [
+          {
+            "id": "2077446719990796505",
+            "type": "replied_to"
+          }
+        ],
+        "text": "GPT\u2011Red learns through adversarial self-play, where its goal is to prompt inject a variety of challenging defender models.\n\nEvery successful attack that GPT-Red finds is used to improve these defenders, pushing GPT\u2011Red to continuously find broader and more complex failures."
+      },
+      {
+        "author_id": "4398626122",
+        "created_at": "2026-07-15T17:34:29.000Z",
+        "edit_history_tweet_ids": [
+          "2077446719990796505"
+        ],
+        "id": "2077446719990796505",
+        "public_metrics": {
+          "bookmark_count": 27,
+          "impression_count": 107287,
+          "like_count": 586,
+          "quote_count": 3,
+          "reply_count": 14,
+          "retweet_count": 16
+        },
+        "referenced_tweets": [
+          {
+            "id": "2077446718728425686",
+            "type": "replied_to"
+          }
+        ],
+        "text": "As model capabilities grow, safety and alignment must scale with them.\n\nRed-teaming is essential, but today\u2019s approaches are difficult to scale, creating a critical bottleneck.\n\nGPT\u2011Red is one way we\u2019re addressing it."
+      },
+      {
+        "author_id": "4398626122",
+        "created_at": "2026-07-15T17:34:29.000Z",
+        "edit_history_tweet_ids": [
+          "2077446718728425686"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "description": "Explore GPT-Red, OpenAI\u2019s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+              "display_url": "openai.com/index/unlockin\u2026",
+              "end": 214,
+              "expanded_url": "https://openai.com/index/unlocking-self-improvement-gpt-red/",
+              "images": [
+                {
+                  "height": 900,
+                  "url": "https://pbs.twimg.com/news_img/2077439982327726080/5guUZKb9?format=jpg&name=orig",
+                  "width": 1600
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2077439982327726080/5guUZKb9?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 191,
+              "status": 200,
+              "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+              "unwound_url": "https://openai.com/index/unlocking-self-improvement-gpt-red/",
+              "url": "https://t.co/GxnmxxcpSk"
+            }
+          ]
+        },
+        "id": "2077446718728425686",
+        "public_metrics": {
+          "bookmark_count": 2326,
+          "impression_count": 1740775,
+          "like_count": 8436,
+          "quote_count": 278,
+          "reply_count": 503,
+          "retweet_count": 800
+        },
+        "text": "Introducing GPT-Red\n\nAn internal automated red teamer on a mission to find our models\u2019 prompt injection vulnerabilities at scale, helping us build stronger defenses before wider deployment.\n\nhttps://t.co/GxnmxxcpSk"
+      },
+      {
+        "author_id": "1917637884967792640",
+        "created_at": "2026-07-15T08:37:21.000Z",
+        "edit_history_tweet_ids": [
+          "2077311544858149081"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 11,
+              "id": "1953337039510003712",
+              "start": 0,
+              "username": "thsottiaux"
+            }
+          ]
+        },
+        "id": "2077311544858149081",
+        "public_metrics": {
+          "bookmark_count": 5,
+          "impression_count": 924332,
+          "like_count": 106,
+          "quote_count": 3,
+          "reply_count": 4,
+          "retweet_count": 2
+        },
+        "referenced_tweets": [
+          {
+            "id": "2077271889626706300",
+            "type": "replied_to"
+          }
+        ],
+        "text": "@thsottiaux When it reaches 10M could we get OpenAI merch ? \ud83d\ude02"
+      }
+    ],
+    "users": [
+      {
+        "id": "4398626122",
+        "name": "OpenAI",
+        "username": "OpenAI"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2078243670265041038",
+    "oldest_id": "2077430470510526635",
+    "result_count": 12
+  }
+}

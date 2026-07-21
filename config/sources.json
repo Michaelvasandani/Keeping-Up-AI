@@ -1,0 +1,12 @@
+[
+  {"handle": "OpenAI", "category": "Models"},
+  {"handle": "AnthropicAI", "category": "Models"},
+  {"handle": "GoogleDeepMind", "category": "Models"},
+  {"handle": "AIatMeta", "category": "Models"},
+  {"handle": "MistralAI", "category": "Models"},
+  {"handle": "GoogleAI", "category": "Models"},
+  {"handle": "huggingface", "category": "Frameworks"},
+  {"handle": "karpathy", "category": "Agent Research"},
+  {"handle": "swyx", "category": "Agent Research"},
+  {"handle": "simonw", "category": "Frameworks"}
+]

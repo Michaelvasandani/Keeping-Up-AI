@@ -1,0 +1,14 @@
+[project]
+name = "keeping-up-ai"
+version = "0.1.0"
+description = "AI Engineer Intelligence Hub — daily curated feed from X"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.52",
+    "httpx>=0.28",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
