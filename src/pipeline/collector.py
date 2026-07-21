@@ -88,3 +88,35 @@ def collect_all(
         })
 
     return results
+
+
+def run(
+    sources_path: str = "config/sources.json",
+    bearer_token: str | None = None,
+    since: datetime | None = None,
+    output_dir: str | Path | None = None,
+) -> Path:
+    """Run the collector and write raw_posts.json to a date-stamped directory.
+
+    Returns the path to the written raw_posts.json file.
+    """
+    import os
+
+    if bearer_token is None:
+        bearer_token = os.environ["X_BEARER_TOKEN"]
+
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    if output_dir is None:
+        output_dir = Path("data/runs") / today
+    else:
+        output_dir = Path(output_dir)
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    results = collect_all(sources_path, bearer_token, since=since)
+
+    out_path = output_dir / "raw_posts.json"
+    out_path.write_text(json.dumps(results, indent=2, ensure_ascii=False))
+
+    print(f"  [done] wrote {len(results)} accounts to {out_path}")
+    return out_path

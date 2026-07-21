@@ -1,0 +1,92 @@
+[
+  {
+    "source": {"handle": "OpenAI", "category": "Models"},
+    "user": {
+      "id": "4398626122",
+      "name": "OpenAI",
+      "username": "OpenAI",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+      "verified": true
+    },
+    "posts": {
+      "data": [
+        {
+          "id": "2078243670265041038",
+          "author_id": "4398626122",
+          "created_at": "2026-07-17T22:21:17.000Z",
+          "text": "Here's how to add the Codex Security plugin in Codex and get started.",
+          "public_metrics": {"like_count": 492, "retweet_count": 58, "reply_count": 45},
+          "referenced_tweets": [{"id": "2078243667081617826", "type": "replied_to"}]
+        },
+        {
+          "id": "2078243667081617826",
+          "author_id": "4398626122",
+          "created_at": "2026-07-17T22:21:16.000Z",
+          "text": "GPT-5.6 Sol sets a new state of the art in cybersecurity.",
+          "public_metrics": {"like_count": 3912, "retweet_count": 371, "reply_count": 242}
+        },
+        {
+          "id": "2078223217773474134",
+          "author_id": "4398626122",
+          "created_at": "2026-07-17T21:00:01.000Z",
+          "text": "10,000 reasons people love GPT-5.6 Sol",
+          "public_metrics": {"like_count": 2252, "retweet_count": 170, "reply_count": 324},
+          "referenced_tweets": [{"id": "2077248807533003257", "type": "quoted"}]
+        },
+        {
+          "id": "2077807981715128702",
+          "author_id": "4398626122",
+          "created_at": "2026-07-16T17:30:01.000Z",
+          "text": "Listen to the OpenAI Podcast.",
+          "public_metrics": {"like_count": 75, "retweet_count": 7, "reply_count": 11},
+          "referenced_tweets": [{"id": "2077807977193714080", "type": "replied_to"}]
+        },
+        {
+          "id": "2077501603050033634",
+          "author_id": "4398626122",
+          "created_at": "2026-07-15T21:12:34.000Z",
+          "text": "A closer look at improved intelligence in GPT-Live.",
+          "public_metrics": {"like_count": 2011, "retweet_count": 129, "reply_count": 196}
+        },
+        {
+          "id": "2077446718728425686",
+          "author_id": "4398626122",
+          "created_at": "2026-07-15T17:34:29.000Z",
+          "text": "Introducing GPT-Red",
+          "public_metrics": {"like_count": 8436, "retweet_count": 800, "reply_count": 503}
+        }
+      ],
+      "meta": {"result_count": 6}
+    }
+  },
+  {
+    "source": {"handle": "AnthropicAI", "category": "Models"},
+    "user": {
+      "id": "1353836358901501952",
+      "name": "Anthropic",
+      "username": "AnthropicAI",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg",
+      "verified": true
+    },
+    "posts": {
+      "data": [
+        {
+          "id": "2077501603050033634",
+          "author_id": "1353836358901501952",
+          "created_at": "2026-07-15T19:00:00.000Z",
+          "text": "Claude can now help you build full applications.",
+          "public_metrics": {"like_count": 500, "retweet_count": 100, "reply_count": 50}
+        },
+        {
+          "id": "9999999999999999999",
+          "author_id": "1353836358901501952",
+          "created_at": "2026-07-16T10:00:00.000Z",
+          "text": "We are excited to announce new safety research.",
+          "public_metrics": {"like_count": 300, "retweet_count": 80, "reply_count": 20},
+          "referenced_tweets": [{"id": "8888888888888888888", "type": "retweeted"}]
+        }
+      ],
+      "meta": {"result_count": 2}
+    }
+  }
+]
