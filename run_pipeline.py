@@ -216,5 +216,9 @@ def run(
 
 
 if __name__ == "__main__":
+    import sys
+
     logging.basicConfig(level=logging.INFO)
-    run()
+    output_dir = run()
+    if not (output_dir / "feed.html").exists():
+        sys.exit(1)
