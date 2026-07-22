@@ -52,9 +52,8 @@ jobs:
       - name: Find latest feed
         id: find-feed
         run: |
-          # Find the most recently modified feed.html under data/runs/
-          FEED_PATH=$(find data/runs -name feed.html -printf '%T@ %p\n' \
-            | sort -rn | head -1 | cut -d' ' -f2-)
+          # Use ls -t to find the most recent date directory with a feed.html
+          FEED_PATH=$(ls -dt data/runs/*/feed.html 2>/dev/null | head -1)
           if [ -z "$FEED_PATH" ]; then
             echo "::error::No feed.html found — nothing to deploy"
             exit 1
