@@ -52,5 +52,15 @@
     "total_tokens": 71007,
     "runtime_seconds": 281.69,
     "errors": []
+  },
+  {
+    "timestamp": "2026-07-22T02:45:28.931340+00:00",
+    "run_dir": "data/runs/2026-07-22",
+    "posts_collected": 183,
+    "stories_published": 0,
+    "stories_rejected": 0,
+    "total_tokens": 0,
+    "runtime_seconds": 2.15,
+    "errors": []
   }
 ]
