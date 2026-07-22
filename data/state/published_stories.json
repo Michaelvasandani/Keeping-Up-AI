@@ -1,0 +1,18 @@
+[
+  {
+    "id": "2078244735794413786",
+    "date": "2026-07-17",
+    "created_at": "2026-07-17T22:25:31.000Z",
+    "category": "Agent Research",
+    "handle": "swyx",
+    "author_name": "swyx",
+    "verified": false,
+    "profile_image_url": "https://pbs.twimg.com/profile_images/2073162797354217472/hNny55eF_normal.jpg",
+    "tweet_url": "https://x.com/swyx/status/2078244735794413786",
+    "text": "btw if you havent set your {codex | claude | gemini | devin} automations to autoresearch how to improve your seo/aeo every week you are really truly missing out on free, should-be-commoditizing-but-weirdly-untapped alpha",
+    "title": "AI-Powered SEO/AEO Automation as Untapped Competitive Advantage",
+    "summary": "A researcher highlights that using AI coding assistants and agents to automatically research and improve search engine optimization and AI-engine optimization weekly is a widely available but underutilized practice that can provide significant competitive advantage.",
+    "why_it_matters": "This demonstrates a practical application of AI agents for business optimization, showing how engineers can leverage existing LLM tools (Claude, Gemini, Devin, etc.) for automated competitive analysis and SEO/AEO improvements—a workflow pattern relevant to building AI-driven automation systems.",
+    "importance": "low"
+  }
+]
