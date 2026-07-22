@@ -1198,5 +1198,53 @@
     "summary": "Simon Willison humorously suggests that hyperscalers concerned about data center water consumption could convert exclusive country club golf courses into public parks and redirect former members toward birdwatching.",
     "why_it_matters": "Highlights the growing environmental pressure on AI infrastructure, particularly water usage in data centers—a critical concern for AI engineers designing and deploying large-scale models. The post sarcastically comments on the tension between computational demands and environmental sustainability.",
     "importance": "low"
+  },
+  {
+    "id": "2079916436232036614",
+    "date": "2026-07-22",
+    "created_at": "2026-07-22T13:08:16.000Z",
+    "category": "Models",
+    "handle": "OpenAI",
+    "author_name": "OpenAI",
+    "verified": true,
+    "profile_image_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+    "tweet_url": "https://x.com/OpenAI/status/2079916436232036614",
+    "text": "New for enterprises: OpenAI Presence helps companies deploy trusted voice and chat agents across customer and internal workflows.\n\nAI agents can answer questions, use company systems, take approved actions, and escalate to people when needed—while improving over time.\n\nOpenAI",
+    "title": "OpenAI Launches Presence: Enterprise Voice and Chat Agents",
+    "summary": "OpenAI introduced Presence, an enterprise product enabling companies to deploy voice and chat agents that can answer questions, integrate with company systems, execute approved actions, and escalate to humans as needed, with continuous improvement capabilities.",
+    "why_it_matters": "This release represents a significant step in productizing agentic AI for business workflows. AI engineers need to understand how OpenAI is packaging agent capabilities for enterprise deployment, including safety mechanisms (escalation), system integration, and feedback loops for model improvement.",
+    "importance": "high"
+  },
+  {
+    "id": "2079925576077324552",
+    "date": "2026-07-22",
+    "created_at": "2026-07-22T13:44:35.000Z",
+    "category": "Models",
+    "handle": "GoogleDeepMind",
+    "author_name": "Google DeepMind",
+    "verified": true,
+    "profile_image_url": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P_normal.jpg",
+    "tweet_url": "https://x.com/GoogleDeepMind/status/2079925576077324552",
+    "text": "We’re expanding our work with the US Dept. of @ENERGY on the Genesis Mission – an initiative to double the pace of scientific discovery within a decade. 🧪\n\nBy committing $40M in AI tokens and @GoogleCloud credits, more lab researchers will gain access to Gemini and other AI https://t.co/jsHtsiUNJC",
+    "title": "Google DeepMind commits $40M to DOE Genesis Mission for accelerated scientific discovery",
+    "summary": "Google DeepMind is partnering with the US Department of Energy on the Genesis Mission, pledging $40M in AI tokens and Google Cloud credits to provide laboratory researchers access to Gemini and other AI tools for accelerating scientific research.",
+    "why_it_matters": "This demonstrates significant industry investment in making advanced AI accessible to scientific research, sets a precedent for AI-government collaboration at scale, and indicates growing real-world deployment of frontier models in research contexts that AI engineers should understand.",
+    "importance": "high"
+  },
+  {
+    "id": "2079775327539339329",
+    "date": "2026-07-22",
+    "created_at": "2026-07-22T03:47:33.000Z",
+    "category": "Agent Research",
+    "handle": "swyx",
+    "author_name": "swyx",
+    "verified": false,
+    "profile_image_url": "https://pbs.twimg.com/profile_images/2073162797354217472/hNny55eF_normal.jpg",
+    "tweet_url": "https://x.com/swyx/status/2079775327539339329",
+    "text": "at some point in your engineering career, a wizened graybeard is going to lecture you about the importance of independently separable control plane vs data plane.\n\nit is very important that you listen.\n\n(and then try to learn about the management plane as early as you can..) https://t.co/EQZLBKcHof",
+    "title": "Control Plane vs Data Plane Architecture Principles for Engineers",
+    "summary": "A senior engineer advocates for understanding the separation of control plane and data plane in system architecture, and recommends learning about the management plane early in one's career.",
+    "why_it_matters": "Understanding control plane/data plane separation is a foundational architectural principle that affects system reliability, scalability, and maintainability. This is particularly relevant to AI engineers building distributed systems and production ML infrastructure.",
+    "importance": "medium"
   }
 ]
