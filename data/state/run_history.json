@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2026-07-22T02:17:54.118831+00:00",
+    "run_dir": "data/runs/2026-07-22",
+    "posts_collected": 0,
+    "stories_published": 0,
+    "stories_rejected": 0,
+    "total_tokens": 0,
+    "runtime_seconds": 0.13,
+    "errors": [
+      "collector: Client error '401 Unauthorized' for url 'https://api.x.com/2/users/by?usernames=OpenAI%2CAnthropicAI%2CGoogleDeepMind%2CAIatMeta%2CMistralAI%2CGoogleAI%2Chuggingface%2Ckarpathy%2Cswyx%2Csimonw&user.fields=id%2Cname%2Cusername%2Cprofile_image_url%2Cverified'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+    ]
+  }
+]
