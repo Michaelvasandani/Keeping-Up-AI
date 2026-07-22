@@ -1,0 +1,79 @@
+{
+  "stories": [
+    {
+      "id": "2078243667081617826",
+      "date": "2026-07-17",
+      "created_at": "2026-07-17T22:21:16.000Z",
+      "category": "Models",
+      "handle": "OpenAI",
+      "author_name": "OpenAI",
+      "verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+      "tweet_url": "https://x.com/OpenAI/status/2078243667081617826",
+      "text": "GPT-5.6 Sol sets a new state of the art in cybersecurity.",
+      "title": "GPT-5.6 Sol Achieves Cybersecurity Breakthrough",
+      "summary": "OpenAI announced that GPT-5.6 Sol has set a new state of the art in cybersecurity applications.",
+      "why_it_matters": "Demonstrates continued advancement in specialized model capabilities for security engineering.",
+      "importance": "high"
+    },
+    {
+      "id": "2078223217773474134",
+      "date": "2026-07-17",
+      "created_at": "2026-07-17T21:00:01.000Z",
+      "category": "Models",
+      "handle": "OpenAI",
+      "author_name": "OpenAI",
+      "verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+      "tweet_url": "https://x.com/OpenAI/status/2078223217773474134",
+      "text": "10,000 reasons people love GPT-5.6 Sol",
+      "title": "Community Reception of GPT-5.6 Sol",
+      "summary": "OpenAI highlights the positive community reception of GPT-5.6 Sol.",
+      "why_it_matters": "Shows strong user adoption and satisfaction with the latest model release.",
+      "importance": "medium"
+    },
+    {
+      "id": "2077501603050033634",
+      "date": "2026-07-15",
+      "created_at": "2026-07-15T21:12:34.000Z",
+      "category": "Frameworks",
+      "handle": "huggingface",
+      "author_name": "Hugging Face",
+      "verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/example/hf_normal.jpg",
+      "tweet_url": "https://x.com/huggingface/status/2077501603050033634",
+      "text": "Transformers v5 is here with native GGUF support.",
+      "title": "Transformers v5 Launches with GGUF Support",
+      "summary": "Hugging Face released Transformers v5 with native GGUF format support.",
+      "why_it_matters": "Simplifies local model deployment by integrating the popular GGUF quantization format directly.",
+      "importance": "high"
+    },
+    {
+      "id": "2077446718728425686",
+      "date": "2026-07-14",
+      "created_at": "2026-07-14T17:34:29.000Z",
+      "category": "Agent Research",
+      "handle": "karpathy",
+      "author_name": "Andrej Karpathy",
+      "verified": true,
+      "profile_image_url": "https://pbs.twimg.com/profile_images/example/karpathy_normal.jpg",
+      "tweet_url": "https://x.com/karpathy/status/2077446718728425686",
+      "text": "New blog post on why tool-use is the next frontier for LLM agents.",
+      "title": "Tool-Use as the Next Frontier for LLM Agents",
+      "summary": "Andrej Karpathy published a blog post arguing that tool-use capabilities represent the next major frontier for LLM agents.",
+      "why_it_matters": "Influential perspective on the direction of agent development from a leading AI researcher.",
+      "importance": "high"
+    }
+  ],
+  "rejections": [
+    {
+      "id": "2077000000000000000",
+      "title": "Rejected Story Example",
+      "reason": "Summary fabricates a release date not mentioned in original post."
+    }
+  ],
+  "usage": {
+    "input_tokens": 600,
+    "output_tokens": 150
+  }
+}
