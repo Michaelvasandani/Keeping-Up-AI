@@ -1,6 +1,7 @@
 """Verifier Agent — checks generated claims against original source text."""
 
 import json
+import re
 from pathlib import Path
 
 MODEL = "claude-haiku-4-5-20251001"
@@ -53,7 +54,11 @@ def verify(candidates: dict, client) -> dict:
         total_input_tokens += response.usage.input_tokens
         total_output_tokens += response.usage.output_tokens
 
-        result = json.loads(response.content[0].text)
+        text = response.content[0].text
+        # Strip markdown code fences if present
+        text = re.sub(r"^```(?:json)?\s*\n?", "", text.strip())
+        text = re.sub(r"\n?```\s*$", "", text)
+        result = json.loads(text)
 
         if result["verdict"] == "approved":
             stories.append(story)

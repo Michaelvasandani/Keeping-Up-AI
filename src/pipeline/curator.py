@@ -1,6 +1,7 @@
 """Curator Agent — assesses importance and generates story metadata from normalized posts."""
 
 import json
+import re
 from pathlib import Path
 
 MODEL = "claude-haiku-4-5-20251001"
@@ -48,7 +49,11 @@ def curate(posts: list[dict], client) -> dict:
         total_input_tokens += response.usage.input_tokens
         total_output_tokens += response.usage.output_tokens
 
-        curation = json.loads(response.content[0].text)
+        text = response.content[0].text
+        # Strip markdown code fences if present
+        text = re.sub(r"^```(?:json)?\s*\n?", "", text.strip())
+        text = re.sub(r"\n?```\s*$", "", text)
+        curation = json.loads(text)
 
         stories.append({
             **post,
