@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2078243667081617826",
+    "date": "2026-07-17",
+    "created_at": "2026-07-17T22:21:16.000Z",
+    "category": "Models",
+    "handle": "OpenAI",
+    "author_name": "OpenAI",
+    "verified": true,
+    "profile_image_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+    "tweet_url": "https://x.com/OpenAI/status/2078243667081617826",
+    "text": "GPT-5.6 Sol sets a new state of the art in cybersecurity."
+  },
+  {
+    "id": "2078223217773474134",
+    "date": "2026-07-17",
+    "created_at": "2026-07-17T21:00:01.000Z",
+    "category": "Models",
+    "handle": "OpenAI",
+    "author_name": "OpenAI",
+    "verified": true,
+    "profile_image_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+    "tweet_url": "https://x.com/OpenAI/status/2078223217773474134",
+    "text": "10,000 reasons people love GPT-5.6 Sol"
+  },
+  {
+    "id": "2077501603050033634",
+    "date": "2026-07-15",
+    "created_at": "2026-07-15T21:12:34.000Z",
+    "category": "Models",
+    "handle": "OpenAI",
+    "author_name": "OpenAI",
+    "verified": true,
+    "profile_image_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+    "tweet_url": "https://x.com/OpenAI/status/2077501603050033634",
+    "text": "A closer look at improved intelligence in GPT-Live."
+  },
+  {
+    "id": "2077446718728425686",
+    "date": "2026-07-15",
+    "created_at": "2026-07-15T17:34:29.000Z",
+    "category": "Models",
+    "handle": "OpenAI",
+    "author_name": "OpenAI",
+    "verified": true,
+    "profile_image_url": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
+    "tweet_url": "https://x.com/OpenAI/status/2077446718728425686",
+    "text": "Introducing GPT-Red"
+  }
+]

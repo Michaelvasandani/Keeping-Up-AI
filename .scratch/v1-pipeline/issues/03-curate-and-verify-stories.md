@@ -4,13 +4,13 @@
 
 **Blocked by:** 02 — Collect and normalize posts.
 
-**Status:** ready-for-agent
+**Status:** done
 
-- [ ] Curator Agent reads normalized posts and calls Haiku 4.5 via the Anthropic Python SDK
-- [ ] Each candidate story has: category, factual title, concise summary, "why it matters" explanation, original post URL
-- [ ] Curator does not publish — it only proposes candidates
-- [ ] Verifier Agent reads candidates alongside original post text and calls Haiku 4.5
-- [ ] Verifier approves or rejects each story with a logged reason
-- [ ] Rejected stories are dropped from the output, not retried
-- [ ] Both agents track token usage for observability
-- [ ] Tests use fixture normalized posts and assert on output schema, that approved stories are faithful to sources, and that rejection reasons are logged
+- [x] Curator Agent reads normalized posts and calls Haiku 4.5 via the Anthropic Python SDK
+- [x] Each candidate story has: category, factual title, concise summary, "why it matters" explanation, original post URL
+- [x] Curator does not publish — it only proposes candidates
+- [x] Verifier Agent reads candidates alongside original post text and calls Haiku 4.5
+- [x] Verifier approves or rejects each story with a logged reason
+- [x] Rejected stories are dropped from the output, not retried
+- [x] Both agents track token usage for observability
+- [x] Tests use fixture normalized posts and assert on output schema, that approved stories are faithful to sources, and that rejection reasons are logged
