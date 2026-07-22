@@ -4,12 +4,12 @@
 
 **Blocked by:** 05 — Full pipeline with state management.
 
-**Status:** ready-for-agent
+**Status:** done
 
-- [ ] `.github/workflows/` contains a workflow that runs `run_pipeline.py` on a daily cron schedule
-- [ ] Workflow installs Python dependencies and injects secrets as environment variables (`ANTHROPIC_API_KEY`, X API credentials)
-- [ ] After a successful run, the workflow commits updated state files (`data/state/`) back to the repo
-- [ ] The workflow deploys `feed.html` to GitHub Pages
-- [ ] The workflow can also be triggered manually via `workflow_dispatch` for testing
-- [ ] A failed pipeline run does not deploy stale content — deployment only happens after a successful run
-- [ ] The site is accessible at the repo's GitHub Pages URL with the latest feed
+- [x] `.github/workflows/` contains a workflow that runs `run_pipeline.py` on a daily cron schedule
+- [x] Workflow installs Python dependencies and injects secrets as environment variables (`ANTHROPIC_API_KEY`, X API credentials)
+- [x] After a successful run, the workflow commits updated state files (`data/state/`) back to the repo
+- [x] The workflow deploys `feed.html` to GitHub Pages
+- [x] The workflow can also be triggered manually via `workflow_dispatch` for testing
+- [x] A failed pipeline run does not deploy stale content — deployment only happens after a successful run
+- [x] The site is accessible at the repo's GitHub Pages URL with the latest feed

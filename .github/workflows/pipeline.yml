@@ -1,0 +1,76 @@
+name: Daily Pipeline
+
+on:
+  schedule:
+    # Run daily at 14:00 UTC (morning in US Pacific)
+    - cron: "0 14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+jobs:
+  run-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install .
+
+      - name: Run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+        run: python run_pipeline.py
+
+      - name: Commit state changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/state/
+          # Only commit if there are staged changes
+          git diff --cached --quiet || git commit -m "Update pipeline state [skip ci]"
+          git push
+
+      - name: Find latest feed
+        id: find-feed
+        run: |
+          # Find the most recently modified feed.html under data/runs/
+          FEED_PATH=$(find data/runs -name feed.html -printf '%T@ %p\n' \
+            | sort -rn | head -1 | cut -d' ' -f2-)
+          if [ -z "$FEED_PATH" ]; then
+            echo "::error::No feed.html found — nothing to deploy"
+            exit 1
+          fi
+          echo "feed_path=$FEED_PATH" >> "$GITHUB_OUTPUT"
+
+      - name: Prepare Pages artifact
+        run: |
+          mkdir -p _site
+          cp "${{ steps.find-feed.outputs.feed_path }}" _site/index.html
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
