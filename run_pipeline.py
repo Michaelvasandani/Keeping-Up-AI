@@ -171,10 +171,19 @@ def run(
         stories_rejected = len(verified["rejections"])
         total_tokens += verified["usage"]["input_tokens"] + verified["usage"]["output_tokens"]
 
-        # 5. Publish
+        # 5. Merge new stories into accumulated list and publish
+        existing_ids = {s["id"] for s in published_stories}
+        for story in verified["stories"]:
+            if story["id"] not in existing_ids:
+                published_stories.append(story)
+
         print("[pipeline] publishing feed...")
         try:
-            publisher.run(output_dir)
+            all_stories_path = output_dir / "verified_stories_all.json"
+            _save_json(all_stories_path, {"stories": published_stories})
+            publisher.publish_file(all_stories_path, output_dir / "feed.html")
+            n = len(published_stories)
+            print(f"  [done] published feed: {n} stories to {output_dir / 'feed.html'}")
         except Exception as exc:
             errors.append(f"publisher: {exc}")
             raise
@@ -188,12 +197,7 @@ def run(
             processed_ids.update(new_ids)
             save_processed_ids(processed_ids, state_dir)
 
-        if verified is not None:
-            existing_ids = {s["id"] for s in published_stories}
-            for story in verified["stories"]:
-                if story["id"] not in existing_ids:
-                    published_stories.append(story)
-            save_published_stories(published_stories, state_dir)
+        save_published_stories(published_stories, state_dir)
 
         # Record run metrics
         elapsed = time.monotonic() - start_time
