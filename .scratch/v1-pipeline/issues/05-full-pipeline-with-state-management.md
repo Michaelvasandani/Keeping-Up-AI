@@ -4,12 +4,12 @@
 
 **Blocked by:** 04 — Publish to static HTML.
 
-**Status:** ready-for-agent
+**Status:** done
 
-- [ ] `run_pipeline.py` executes all five modules in sequence
-- [ ] `data/state/processed_ids.json` tracks all seen post IDs across runs — the Normalizer consults it for deduplication
-- [ ] `data/state/published_stories.json` accumulates all published stories across runs — the Publisher merges new stories into it
-- [ ] `data/state/run_history.json` records per-run metrics: posts collected, stories published, stories rejected, total tokens used, runtime in seconds, errors encountered
-- [ ] Running the pipeline twice with identical source data produces no duplicate stories in the output
-- [ ] The pipeline can be run locally with `python run_pipeline.py` using the same code path as CI
-- [ ] Failures in individual modules are logged and recorded in run history
+- [x] `run_pipeline.py` executes all five modules in sequence
+- [x] `data/state/processed_ids.json` tracks all seen post IDs across runs — the Normalizer consults it for deduplication
+- [x] `data/state/published_stories.json` accumulates all published stories across runs — the Publisher merges new stories into it
+- [x] `data/state/run_history.json` records per-run metrics: posts collected, stories published, stories rejected, total tokens used, runtime in seconds, errors encountered
+- [x] Running the pipeline twice with identical source data produces no duplicate stories in the output
+- [x] The pipeline can be run locally with `python run_pipeline.py` using the same code path as CI
+- [x] Failures in individual modules are logged and recorded in run history
