@@ -1246,5 +1246,53 @@
     "summary": "A senior engineer advocates for understanding the separation of control plane and data plane in system architecture, and recommends learning about the management plane early in one's career.",
     "why_it_matters": "Understanding control plane/data plane separation is a foundational architectural principle that affects system reliability, scalability, and maintainability. This is particularly relevant to AI engineers building distributed systems and production ML infrastructure.",
     "importance": "medium"
+  },
+  {
+    "id": "2080161521070690671",
+    "date": "2026-07-23",
+    "created_at": "2026-07-23T05:22:08.000Z",
+    "category": "Agent Research",
+    "handle": "swyx",
+    "author_name": "swyx",
+    "verified": false,
+    "profile_image_url": "https://pbs.twimg.com/profile_images/2073162797354217472/hNny55eF_normal.jpg",
+    "tweet_url": "https://x.com/swyx/status/2080161521070690671",
+    "text": "wew https://t.co/zojVVw9vCA https://t.co/tH5i2hEfm7",
+    "title": "Unable to assess - links not accessible",
+    "summary": "Post contains only link references without accessible content or context for evaluation.",
+    "why_it_matters": "Cannot determine relevance to AI engineering without viewing the referenced content.",
+    "importance": "low"
+  },
+  {
+    "id": "2080315993101115485",
+    "date": "2026-07-23",
+    "created_at": "2026-07-23T15:35:57.000Z",
+    "category": "Frameworks",
+    "handle": "simonw",
+    "author_name": "Simon Willison",
+    "verified": false,
+    "profile_image_url": "https://pbs.twimg.com/profile_images/378800000261649705/be9cc55e64014e6d7663c50d7cb9fc75_normal.jpeg",
+    "tweet_url": "https://x.com/simonw/status/2080315993101115485",
+    "text": "ChatGPT Sites means ChatGPT in \"Work\" mode can build and deploy public websites running on Cloudflare Workers, including with persistence on top of SQLite\n\n(OpenAI do not make it easy to figure out that's how the platform works, though) https://t.co/DOvq0WyTXO",
+    "title": "ChatGPT Sites Now Supports Building Websites on Cloudflare Workers",
+    "summary": "ChatGPT in Work mode can now build and deploy public websites using Cloudflare Workers infrastructure with SQLite persistence, though OpenAI's documentation doesn't clearly explain this architecture.",
+    "why_it_matters": "This expands AI-assisted web development capabilities by enabling ChatGPT to generate full-stack applications with cloud hosting and databases, relevant for engineers exploring AI-powered development tools and serverless architectures.",
+    "importance": "medium"
+  },
+  {
+    "id": "2080102848050933904",
+    "date": "2026-07-23",
+    "created_at": "2026-07-23T01:29:00.000Z",
+    "category": "Frameworks",
+    "handle": "simonw",
+    "author_name": "Simon Willison",
+    "verified": false,
+    "profile_image_url": "https://pbs.twimg.com/profile_images/378800000261649705/be9cc55e64014e6d7663c50d7cb9fc75_normal.jpeg",
+    "tweet_url": "https://x.com/simonw/status/2080102848050933904",
+    "text": "I think loops were a short-lived patch for models that couldn't reliably keep working on long problems until they hit a defined goal\n\nFable and GPT-5.6 (and probably Kimi K3 as well) can just do that out of the box, unassisted https://t.co/YWY9XvRJfH",
+    "title": "Loop-Based Prompting Becoming Obsolete as Models Handle Long-Horizon Tasks Natively",
+    "summary": "Simon Willison observes that explicit loop mechanisms in prompting are no longer necessary as newer models like Fable and GPT-5.6 can reliably work through extended problems to completion without requiring intermediate intervention or assistance.",
+    "why_it_matters": "This signals a fundamental shift in how engineers should structure AI applications—the architectural pattern of explicit loops for task decomposition may need to be reconsidered as model capabilities improve, potentially simplifying application design but requiring engineers to adapt their mental models of agentic systems.",
+    "importance": "medium"
   }
 ]

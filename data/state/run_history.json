@@ -82,5 +82,15 @@
     "total_tokens": 2327,
     "runtime_seconds": 10.65,
     "errors": []
+  },
+  {
+    "timestamp": "2026-07-23T15:48:43.953263+00:00",
+    "run_dir": "data/runs/2026-07-23",
+    "posts_collected": 182,
+    "stories_published": 3,
+    "stories_rejected": 2,
+    "total_tokens": 3967,
+    "runtime_seconds": 19.91,
+    "errors": []
   }
 ]
